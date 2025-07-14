@@ -226,5 +226,5 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 Happy downloading! 🚀
 
-[Next: Installation Guide →](documentation/installation-guide.md)
+[Next: User Guide →](documentation/user-guide.md)
 
