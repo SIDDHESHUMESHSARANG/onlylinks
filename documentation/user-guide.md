@@ -1,4 +1,4 @@
-[← Prev: Installation Guide](installation-guide.md) | [Next: Technical Overview →](technical-overview.md)
+[← Prev: README](../README.md) | [Next: Technical Overview →](technical-overview.md)
 
 # OnlyLinks User Guide
 
@@ -282,4 +282,4 @@ If you need additional help:
 
 For technical support or feature requests, please visit our GitHub repository. 
 
-[← Prev: Installation Guide](installation-guide.md) | [Next: Technical Overview →](technical-overview.md) 
+[← Prev: README](../README.md) | [Next: Technical Overview →](technical-overview.md)

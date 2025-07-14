@@ -1,4 +1,4 @@
-[← Prev: User Guide](user-guide.md) | [Next: Contributing Guidelines →](../contributions/contribute.md)
+[← Prev: User Guide](user-guide.md) | [Next: Installation-guide (for devs) →](installation-guide.md)
 
 # OnlyLinks Technical Overview
 
@@ -318,4 +318,4 @@ FRONTEND_URL=http://localhost:5173
 
 This technical overview provides a foundation for understanding the OnlyLinks architecture and implementation details. For specific implementation questions, refer to the individual component documentation or the source code. 
 
-[← Prev: User Guide](user-guide.md) | [Next: Contributing Guidelines →](../contributions/contribute.md) 
+[← Prev: User Guide](user-guide.md) | [Next: Installation-guide (for devs) →](installation-guide.md)

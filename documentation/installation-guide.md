@@ -1,4 +1,4 @@
-[← Prev: README](../README.md) | [Next: User Guide →](user-guide.md)
+[← Prev: Technical Overview](technical-overview.md) | [Next: Contribution Guidelines →](user-guide.md)
 
 # OnlyLinks Installation Guide
 
@@ -311,4 +311,4 @@ After successful installation:
 
 Happy downloading! 🚀
 
-[← Prev: README](../README.md) | [Next: User Guide →](user-guide.md) 
+[← Prev: Technical Overview](technical-overview.md) | [Next: Contribution Guidelines →](contributions/contribute.md)

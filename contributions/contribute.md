@@ -1,4 +1,4 @@
-[← Prev: Technical Overview](../documentation/technical-overview.md) | [Next: README →](../README.md)
+[← Prev: Installation Guide](../documentation/installation-guide.md) | [Go to top →](../README.md)
 
 # Contributing to OnlyLinks
 
@@ -200,4 +200,4 @@ Contributors will be recognized in:
 
 Thank you for contributing to OnlyLinks! 🚀
 
-[← Prev: Technical Overview](../documentation/technical-overview.md) | [Next: README →](../README.md)
+[← Prev: Installation Guide](../documentation/installation-guide.md) | [Go to top →](../README.md)
