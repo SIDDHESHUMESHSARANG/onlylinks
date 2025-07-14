@@ -222,8 +222,6 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 ---
 
-**Made with ❤️ by [SIDDHESHUMESHSARANG](https://siddheshumeshsarang.vercel.app)**
-
 Happy downloading! 🚀
 
 [Next: User Guide →](documentation/user-guide.md)
