@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/h"
+
+# Check for non-empty commit message
+if test -z "$(cat "$1" | tr -d '[:space:]')"; then
+  echo "Aborting commit: empty commit message." >&2
+  exit 1
+fi

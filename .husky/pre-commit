@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/h"
+
+# Run frontend lint (React)
+cd ../../source-code/frontend && npm run lint || exit 1
+
+# Run backend Python syntax check
+cd ../backend || exit 1
+find . -name "*.py" -exec python -m py_compile {} + || exit 1
