@@ -1,4 +1,4 @@
-FROM jrottenberg/ffmpeg:latest as ffmpeg
+FROM jrottenberg/ffmpeg:latest AS ffmpeg
 
 FROM python:3.11-slim
 

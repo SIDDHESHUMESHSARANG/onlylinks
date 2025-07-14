@@ -9,14 +9,87 @@ body {
   overflow-x: hidden;
 }
 
-h1,h2,h3,select,a,button{
+h1,
+h2,
+h3,
+select,
+a,
+button {
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
 }
 
+.proceedloading {
+  border: 5px solid transparent;
+  animation: borderSpin 1s linear infinite;
+}
+
+.timeoutmsg {
+  background: hsla(0, 0%, 100%, 0.125);
+  backdrop-filter: blur(50px);
+  border: 5px solid transparent;
+  z-index: 30;
+  animation: borderSpin 1s linear infinite;
+}
+
+@keyframes borderSpin {
+  0% {
+    border-image: linear-gradient(to right,
+        rgba(255, 0, 0, 0.7),
+        /* Red */
+        rgba(51, 51, 255, 0.7)
+        /* Blue */
+      ) 1;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 10px rgba(51, 51, 255, 0.7);
+  }
+
+  25% {
+    border-image: linear-gradient(to top,
+        rgba(51, 51, 255, 0.7),
+        /* Blue */
+        purple) 1;
+    box-shadow: 0 0 10px rgba(51, 51, 255, 0.7), 0 0 10px purple;
+  }
+
+  50% {
+    border-image: linear-gradient(to left,
+        purple rgba(255, 204, 0, 0.7)
+        /* Yellow */
+      ) 1;
+    box-shadow: 0 0 10px purple, 0 0 10px rgba(255, 204, 0, 0.7);
+  }
+
+  75% {
+    border-image: linear-gradient(to bottom,
+        rgba(255, 204, 0, 0.7),
+        /* Yellow */
+        rgba(255, 0, 0, 0.7)
+        /* Red */
+      ) 1;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7), 0 0 10px rgba(255, 0, 0, 0.7);
+  }
+
+  100% {
+    border-image: linear-gradient(to right,
+        rgba(255, 0, 0, 0.7),
+        /* Red */
+        rgba(51, 51, 255, 0.7)
+        /* Blue */
+      ) 1;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 10px rgba(51, 51, 255, 0.7);
+  }
+}
+
+
+/* .timeoutmsg::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+} */
+
 /* Make shadcn/ui select placeholder black in light mode and gray in dark mode */
-.format-select[data-placeholder]{
+.format-select[data-placeholder] {
   background: #fff !important;
 }
 
@@ -30,7 +103,8 @@ h1,h2,h3,select,a,button{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #bbb; /* Adjust thumb color as needed */
+  background: #bbb;
+  /* Adjust thumb color as needed */
   border-radius: 4px;
 }
 
@@ -53,8 +127,10 @@ h1,h2,h3,select,a,button{
 }
 
 .dark .selection-black-on-dark::selection {
-  color: #000 !important;      /* Black text */
-  background: #fff !important; /* White background */
+  color: #000 !important;
+  /* Black text */
+  background: #fff !important;
+  /* White background */
 }
 
 @custom-variant dark (&:is(.dark *));
@@ -170,6 +246,7 @@ h1,h2,h3,select,a,button{
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

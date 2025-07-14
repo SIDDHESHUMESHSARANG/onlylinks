@@ -13,67 +13,34 @@
   .container {
     display: flex;
     flex-direction: column;
-    margin-top: 0;
   }
 
+  .select {
+    padding: 25px;
+    width: 320px;
+  }
 
-
-  .select,
   .linkbox {
     width: 320px;
-    padding: 20px 40px;
-  }
-
-  .linkbox {
     padding: 30px 60px;
     font-size: 15px;
-    margin-bottom: 12px !important;
+    margin-bottom: 20px !important;
   }
 
   .thetext {
-    font-size: 1.16rem;
-    margin-left: 0px !important;
+    font-size: 1.12rem;
+    margin-left: 10px !important;
   }
-
-
-
+  
   .instructions {
-    font-size: 10px;
+    font-size: 12px;
+    margin-left: -10px;
   }
 
   .proceed {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 20% !important;
-    margin: 0 auto 0 auto !important;
-    margin-top: 20px !important;
-    margin-bottom: 24px !important;
-    border-radius: 16px !important;
-    font-size: 0.1rem !important;
-    font-weight: 700 !important;
-    padding: 20px 20px !important;
-    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.09);
-    background: linear-gradient(90deg, #fff 60%, #f0f0f0 100%) !important;
-    color: #181818 !important;
-    border: 1.5px solid #181818 !important;
-    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-    z-index: 60 !important;
-    position: relative !important;
-  }
-
-  .proceed:active {
-    background: #f5f5f5 !important;
-    color: #222 !important;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.13);
-  }
-
-  .proceed svg {
-    display: block;
-    margin: 0 auto;
-    width: 20px !important;
-    height: 20px !important;
-    font-size: 20px !important;
+    margin-left: 0px;
+    width: 150px;
+    padding: 25px;
   }
 
   .github {

@@ -1,3 +1,5 @@
 yt-dlp
 fastapi
 pydantic
+uvicorn
+python-dotenv

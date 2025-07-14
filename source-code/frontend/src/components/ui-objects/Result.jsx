@@ -192,10 +192,11 @@ export default function Result(props) {
             />
             {/* Timeout message overlay */}
             {downloading && showTimeoutMessage && (
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-100 backdrop-blur-[10px] rounded-[20px] z-20 border border-[#ccc] border-opacity-20">
-                <p className="text-white text-lg font-semibold text-center px-4">
+              <div className="timeoutmsg absolute flex items-center justify-center z-20 border-opacity-20 p-[20px]">
+                <p className="text-white text-[15px] font-semibold text-center px-4">
                   Downloading may take some seconds..<br />We're ensuring the best quality for you💕
                 </p>
+
               </div>
             )}
             <div className="text-lg font-semibold text-center mb-2 text-black dark:text-white">{props.title}</div>
@@ -231,6 +232,9 @@ export default function Result(props) {
                 </SelectItem>
                 <SelectItem className="cursor-pointer" value="mp3">
                   MP3 (Audio)
+                </SelectItem>
+                <SelectItem className="cursor-pointer" value="m4a">
+                  M4A (Audio)
                 </SelectItem>
                 <SelectItem className="cursor-pointer" value="webm">
                   WebM

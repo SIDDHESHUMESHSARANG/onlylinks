@@ -3,6 +3,7 @@ from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from pydantic import BaseModel
 import os
+import re
 from fastapi.middleware.cors import CORSMiddleware
 import mimetypes
 from dotenv import load_dotenv
