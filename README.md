@@ -222,7 +222,7 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 ---
 
-Happy downloading! 🚀
+Happy downloading!
 
 [Next: User Guide →](documentation/user-guide.md)
 
