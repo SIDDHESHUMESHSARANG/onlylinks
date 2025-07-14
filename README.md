@@ -1,6 +1,6 @@
 # <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/291deaea-3f3f-44c2-a03a-e1055b816ea9" /> OnlyLinks
 
-A modern, high-quality video downloader built with React and yt-dlp. 
+A modern, high-quality video downloader built with React and yt-dlp. <br/>
 Download videos from YouTube, Instagram, Facebook, X and many other platforms with a beautiful, user-friendly interface.
 
 ![OnlyLinks](https://img.shields.io/badge/Status-Active-brightgreen)
