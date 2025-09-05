@@ -57,7 +57,7 @@ def downloadMedia(link, file_format):
         'restrictfilenames': True,
         # Performance optimizations
         'concurrent_fragment_downloads': 10,  # Download multiple fragments simultaneously
-        'buffersize': 1024,  # Increase buffer size for faster I/O
+        'buffersize': 4028,  # Increase buffer size for faster I/O
         'http_chunk_size': 10485760,  # 10MB chunks for better memory management
         'retries': 3,  # Retry failed downloads
         'fragment_retries': 3,  # Retry failed fragments
