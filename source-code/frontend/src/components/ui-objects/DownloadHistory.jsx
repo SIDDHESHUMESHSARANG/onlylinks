@@ -48,7 +48,7 @@ export default function DownloadHistory() {
                     className={`
                         bg-[#F2F0EF] dark:bg-[#111] h-[800px] overflow-y-auto
                         px-[10px] py-[20px] absolute top-0 left-0 w-[250px] mt-[0px] m-[0px] z-20
-                        transition-[left] duration-500 ease-in-out z-20 overflow-y-auto
+                        transition-[left] duration-500 ease-in-out 
                         ${isOpen ? "left-0" : "left-[-320px]"} 
                     `}
                 >
